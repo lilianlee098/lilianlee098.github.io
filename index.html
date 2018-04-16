@@ -3,33 +3,199 @@
 <html>
 
     <head>
-    
-        <title>Fancy Box</title>
+        
+        <title>Lilian Lee</title>
         <link rel="stylesheet" href="css/style.css">
         
         <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 
-        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
 
         <script src="js/jquery.fancybox.min.js"></script>
+        
         
     </head>
     
     <body>
-    
-        <div class="container">
-            
-            <a data-fancybox="gallery" href="img/big_1.jpg">
-                <img src="img/small_1.jpg">
-            </a>
-            
-            <a data-fancybox="gallery" href="img/big_2.jpg">
-                <img src="img/small_2.jpg">
-            </a>
-            
+        <!--Header Section-->
+
+        <!--OPTION 2-->
+        <div class="header" id="backup">
+            <div class="navigation">
+                <div class="links">
+                    <a href="index.html" target="">HOME</a> 
+                    &bull;
+                    <a href="#A1" >ABOUT</a>       
+                </div>
+                
+                <div class="logo">
+               LILIAN LEE
+                </div>
+                
+                <div class="links">
+                     <a href="#P3">PORTFOLIO</a>
+                    &bull;
+                    <a  href="#C4">CONTACT</a> 
+                </div>
+            </div>
         </div>
+        
+        <!--Banner Section-->
+        <div class="banner">
+            
+            <div class="bannerbox">
+                <div class="bannerword">
+                    <div class="blurb">
+                    HI, I'M LILIAN LEE
+                    </div>
+<!--
+                    <div class="description">Designer + Developer
+                    </div>
+-->
+                    
+                    <div class="description"> DESIGNER + DEVELOPER
+                    </div>
+                    
+                </div>
+                <img src='images/lilianlee14.png'>
+                </div>
+        </div>
+        
+        <!--About Section-->
+        <div class="about">
+            <div class="words">
+                <h1 id="A1">
+                    - ABOUT - 
+                </h1>
+                <p>Hello! My name is Lilian Lee and I am a second year student studying a Bachelor of Design majoring in Visual Communication Design at Massey University of Wellington, New Zealand. I am a designer and web developer. I love designing posters, websites, literally anything, and branding. My strengths and skills are designing and using final cut pro in terms of the filming and editing aspect of my skills. I have been designing for several years now however, there are always new things to learn like designing websites, using html/css and all that. <br>I am hardworking, friendly, adaptable and quick to learn, allowing me to provide the best service possible.  
+                </p>
+            <div class="aboutmore"> 
+                <a href="about.html" target="_self">
+                READ MORE ⟶ </a>
+            </div>
+            </div>
+        
+        </div>
+        
+        <!--Skills & Services Section-->
+        <div class="SSS">
+            
+            <div class="SSSection">
+                <h1> - SKILLS + SERVICES -</h1>
+                
+                <div class="skills">
+                    <div class="computer">
+                    <img src="images/design.png">
+                    <h3>DESIGN</h3>
+                    <img src="images/develope.png">
+                    <h3>DEVELOPEMENT</h3>
+                    </div>
+                    <div class="computer">
+                    <img src="images/website.png">
+                    <h3>WEBSITE</h3>
+                    <img src="images/branding.png">
+                    <h3>BRANDING</h3>
+                    </div>
+                </div>
+                
+                <div class="services">
+                <img src="images/percentage.png"></div>
+                
+            </div>
+        </div>
+        
+        <!--Portfolio Section-->
+        <div class="portfolio">
+            <div class="portbox">
+                <h1 id="P3">
+                    - PORTFOLIO -
+                </h1>
+                
+                <div class="portphoto">
+                
+                    <div class="two1">
+                        <a data-fancybox="gallery" href="images/photo01.JPG"><img src="images/photo01.JPG"></a>
+                        <a data-fancybox="gallery" href="images/photo06.JPG"><img src="images/photo06.JPG"></a>
+                    </div>
+                    
+
+                    <div class="one">
+                        <a data-fancybox="gallery" href="images/artwork1.jpg"><img src="images/artwork1.jpg"></a>
+                    </div>
+
+                    <div class="two12">
+                        <a data-fancybox="gallery" href="images/helpcampaign04.jpg"><img src="images/helpcampaign04.jpg"></a>
+                        <a data-fancybox="gallery" href="images/Brochure04.jpg"><img src="images/Brochure04.jpg"></a>
+                    </div>
+            
+                </div>
+                
+                <div class="portmore"> 
+                <a href="portfolio.html" target="_self">VIEW ALL ⟶</a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!--Contact Section-->
+        <div class="contact">
+            <div class=contactbox>
+                <h1 id="C4">
+                    - CONTACT -
+                </h1>
+                 
+                <form action="/my-handling-form-page" method="post">
+                    <div>
+                        <input type="text" id="name" name="user_name" value="Name">
+                        
+                    </div>
+                    <div>
+                        <input type="email" id="mail" name="user_mail" value="Email">
+                    </div>
+                    <div>
+                        <input type="text" id="subject" name="user_subject" value="Subject">
+                    </div>
+                    <div>
+                       <textarea id="msg" name="user_message">Describe your project in detail...</textarea>
+                    </div>
+                    <div class="button">
+                    <button type="submit">Send</button></div>
+                </form>
+                
+                <div class="info">
+                    <img src="images/phone.png">
+                    <h4>TELEPHONE</h4>
+                    <p>0226271164</p>
+                    <img src="images/mail.png">
+                    <h4>EMAIL</h4>
+                    <p>lilianlee098@gmail.com</p>
+                    <img src="images/location.png">
+                    <h4>ADDRESS</h4>
+                    <h5>Massey University 
+                    </h5> 
+                    <p>Wallace St, Mount Cook, Wellington 6021
+                    </p>
+                   
+                    <a href="#backup"> BACK TO TOP  ↑ </a>
+                    
+                </div>
+        
+            </div>
+        </div>
+        
+        <!--Bottom Banner Section-->
+        <div class="bottom">
+            <div class="bottombox">
+                <div class="bbwords">
+                    © Copyright 2017 by Lilian Lee
+                </div>
+                <img>
+            </div>
+        
+        </div>
+        
     </body>
-    
-    
+
+
 </html>
